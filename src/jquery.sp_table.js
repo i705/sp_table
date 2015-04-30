@@ -16,7 +16,7 @@ https://github.com/i705/sp_table
 		
 		this.each(function(){
 			if($(this).width() > w && option.scroll == true){
-				$(this).wrap('<div class="'+option.wrapClass+'" style="width:'+option.minWidth+'; overflow: scroll;" />');
+				$(this).wrap('<div class="'+option.wrapClass+'" style="width:'+option.minWidth+';overflow:scroll;" />');
 			}
 		});
 		
